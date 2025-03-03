@@ -28,5 +28,4 @@ cards.forEach((card) => {
   card.classList.add('loaded');
 });
 
-const form = document.getElementById('contact-form');
-const alert = document.getElementById('alert');
+
