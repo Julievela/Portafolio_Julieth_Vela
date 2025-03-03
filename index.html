@@ -14,22 +14,22 @@
     <header>
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Julieth Vela</a>
+          <a class="navbar-brand" href="#contacto">Julieth Vela</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
-              <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Inicio</a></li>
-              <li class="nav-item"><a class="nav-link" href="#">Quien Soy</a></li>
-              <li class="nav-item"><a class="nav-link" href="#">Portafolio</a></li>
-              <li class="nav-item"><a class="nav-link" href="#">Contacto</a></li>
+              <li class="nav-item"><a class="nav-link active" aria-current="page" href="#inicio">Inicio</a></li>
+              <li class="nav-item"><a class="nav-link" href="#sobre-mi">Sobre mí</a></li>
+              <li class="nav-item"><a class="nav-link" href="#proyectos">Mi trayectoria</a></li>
+              <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
             </ul>
           </div>
         </div>
       </nav>
     </header>
-    <main class="main">
+    <main class="main" id="inicio">
       <div class="info-content">
         <h1>Soy <span>Julieth Vela</span></h1>
         <p>Desarrolladora Java Full Stack con experiencia en documentación de procesos, desarrollo de aplicaciones y manejo de herramientas tecnológicas. Fuerte compromiso con la mejora continua, el trabajo en equipo y la optimización de proyectos.</p>
@@ -38,7 +38,7 @@
       <img src="imagenes/Foto principal1.png" alt="Imagen de Julieth Vela">
     </main>
   </div>
-  <div class="about">
+  <div class="about" id="sobre-mi">
     <img src="imagenes/Segunda Foto.jpg" alt="Imagen de Julieth Vela">
     <div class="about-info">
       <h2>Sobre mí</h2>
@@ -48,7 +48,7 @@
       <button class="download-cv" onclick="window.location.href='https://wa.me/573124720559'">Pregúntame</button>
     </div>
   </div>
-  <div class="portfolio">
+  <div class="portfolio" id="proyectos">
     <div class="portfolio-heading">
       <h2>Mi trayectoria</h2>
       <div class="divider"></div>
@@ -63,13 +63,8 @@
           <p>Generation, Bogotá, Colombia - Noviembre de 2023 - Febrero de 2025</p>
           <p>Desarrollo de software utilizando lenguajes como C, Python, JavaScript, SQL y Angular. Resolución de problemas técnicos e implementación de mejoras. Participación en reuniones y coordinación con diferentes departamentos.</p>
         </div>
-        <div class="card__proyect-links">
-          <a href="#"><i class="fab fa-github"></i></a>
-          <a href=""><i class="fas fa-globe-asia"></i></a>
-          <a href=""><i class="fas fa-code"></i></a>
-        </div>
         <div class="button-content">
-          <button class="project-details-button download-cv"><a href="https://github.com/OscarTorresDev/Proyecto_Agroapp_Generation">Detalles del Proyecto</a></button>
+          <button class="project-details-button download-cv"><a href="https://htmlpreview.github.io/?https://raw.githubusercontent.com/OscarTorresDev/Proyecto_Agroapp_Generation/main/HTML/aboutUs.html">Detalles del Proyecto</a></button>
         </div>
       </div>
       <div class="card">
@@ -81,18 +76,26 @@
           <p>Cosco Shipping Lines, Bogotá, Colombia - Diciembre de 2023 - Mayo de 2024</p>
           <p>Garantice la documentación funcional para envíos internacionales creando manuales de usuario; administré la base de datos optimizando y actualizando registros, además, extraje y analicé datos en SQL.</p>
         </div>
-        <div class="card__proyect-links">
-          <a href="#"><i class="fab fa-github"></i></a>
-          <a href=""><i class="fas fa-globe-asia"></i></a>
-          <a href=""><i class="fas fa-code"></i></a>
-        </div>
         <div class="button-content">
           <button class="project-details-button download-cv"><a href="docs/CV_Julieth_Vela.pdf">Detalles de Experiencia</a></button>
         </div>
       </div>
+      <div class="card">
+        <div class="card__img">
+        <img src="imagenes/Ejercicio.png" alt="Foto del proyecto" class="mi-imagen">
+        </div>
+        <div class="card__title">
+          <h2>Programa en Javascript</h2>
+          <p>Generation, Bogotá, Colombia - Noviembre de 2023 - Febrero de 2025</p>
+          <p>Programa que solicita un valor, verifica que sea numérico para evitar errores y muestra mensajes utilizando el DOM. Requiere un archivo HTML enlazado con el script. Considera posibles combinaciones y utiliza un algoritmo y pseudocódigo para facilitar la lógica.</p>
+        </div>
+        <div class="button-content">
+          <button class="project-details-button download-cv"><a href="https://htmlpreview.github.io/?https://github.com/Julievela/logica-programacion-1/blob/main/index.html">Detalles del Proyecto</a></button>
+        </div>
+      </div>
     </div>
   </div>
-  <div class="contact-section">
+  <div class="contact-section" id="contacto">
     <div class="contact-heading">
       <h2>Mantén el contacto</h2>
       <div class="divider"></div>
@@ -118,7 +121,7 @@
     <div class="social-networks">
       <a href="https://www.linkedin.com/in/Julievela" target="_blank"><i class="fab fa-linkedin"></i></a>
       <a href="https://www.instagram.com/juliethvela/" target="_blank"><i class="fab fa-instagram"></i></a>
-      <a href="https://wa.me/573124720559" target="_blank"><i class="fab fa-whatsapp"></i></a>
+      <a href="https://wa.me/573124720559" target="_blank"><i class="fab fa-whats"></i></a>
     </div>
   </footer>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
